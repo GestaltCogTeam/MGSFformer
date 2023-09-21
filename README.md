@@ -1,2 +1,2 @@
-# STMGRAnet
-We will upload the code of our proposed spatio-temporal multi-granularity residual attention network after collation
+# MGFformer
+We will upload the code of our proposed multi-granularity fusion transformer
