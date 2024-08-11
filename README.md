@@ -10,7 +10,6 @@ The following is the meaning of the core hyperparameter:
 - out_len: Future length
 - num_id: Number of time series 
 - IE_dim: Embedding size
-- emb_size: Embedding size
 - dropout: Droupout
 - num_head: Number of multi-head attention
 
