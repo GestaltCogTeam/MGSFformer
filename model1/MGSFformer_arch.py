@@ -45,7 +45,7 @@ class MGSFformer(nn.Module):
         ###DF_block
         self.DF_block = DF_block(5,out_len)
 
-    def forward(self, history_data: torch.Tensor, future_data: torch.Tensor, batch_seen: int, epoch: int, train: bool,**kwargs) -> torch.Tensor:
+    def forward(self, history_data):
 
         # Input [B,H,N,1]: B is batch size. N is the number of variables. H is the history length
         # Output [B,L,N,1]: B is batch size. N is the number of variables. L is the future length
